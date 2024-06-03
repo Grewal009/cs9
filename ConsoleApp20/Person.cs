@@ -18,6 +18,20 @@ public class Person
         Console.WriteLine($"Name:{Name}, No of kidney:{NumberOfKidney}, Health Status {HealthStatus}");
     }
 
+    public void DonateKidney()
+    {
+        NumberOfKidney--;
+    }
+
+    public void ReceiveKidney()
+    {
+        NumberOfKidney++;
+    }
+
+    public void HealthStat(string status)
+    {
+        HealthStatus = status;
+    }
 
 
 }
