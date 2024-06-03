@@ -15,7 +15,7 @@ public class Person
 
     public void ShowStatus()
     {
-        Console.WriteLine($"Name:{Name}, No of kidney:{NumberOfKidney}, Health Status {HealthStatus}");
+        Console.WriteLine($"Name:{Name}, No of kidney:{NumberOfKidney}, Health Status:{HealthStatus}");
     }
 
     public void DonateKidney()
